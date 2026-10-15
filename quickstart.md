@@ -2,7 +2,7 @@
 
 ## 1. Get an API key
 
-Sign up at [cheapaimodel.com](https://cheapaimodel.com) and create a key in your dashboard.
+Sign up at [cheapaimodel.ai](https://cheapaimodel.ai) and create a key on the [API keys page](https://console.cheapaimodel.ai/keys).
 
 ```bash
 export CHEAPAIMODEL_API_KEY="your-key"
@@ -15,9 +15,9 @@ export CHEAPAIMODEL_API_KEY="your-key"
 ```python
 from openai import OpenAI
 
-client = OpenAI(base_url="https://api.cheapaimodel.com/v1", api_key="your-key")
+client = OpenAI(base_url="https://api.cheapaimodel.ai/v1", api_key="your-key")
 res = client.chat.completions.create(
-    model="gpt-4o-mini",
+    model="glm-5.3-flash",
     messages=[{"role": "user", "content": "Hello!"}],
 )
 print(res.choices[0].message.content)
@@ -28,9 +28,9 @@ print(res.choices[0].message.content)
 ```js
 import OpenAI from "openai";
 
-const client = new OpenAI({ baseURL: "https://api.cheapaimodel.com/v1", apiKey: "your-key" });
+const client = new OpenAI({ baseURL: "https://api.cheapaimodel.ai/v1", apiKey: "your-key" });
 const res = await client.chat.completions.create({
-  model: "gpt-4o-mini",
+  model: "glm-5.3-flash",
   messages: [{ role: "user", content: "Hello!" }],
 });
 console.log(res.choices[0].message.content);

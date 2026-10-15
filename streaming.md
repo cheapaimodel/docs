@@ -4,7 +4,7 @@ Set `"stream": true` to receive the answer token by token, using Server-Sent Eve
 
 ```python
 stream = client.chat.completions.create(
-    model="gpt-4o-mini",
+    model="glm-5.3-flash",
     messages=[{"role": "user", "content": "Tell me a story"}],
     stream=True,
 )

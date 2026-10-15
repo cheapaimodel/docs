@@ -16,11 +16,11 @@
 ## Example
 
 ```bash
-curl https://api.cheapaimodel.com/v1/chat/completions \
+curl https://api.cheapaimodel.ai/v1/chat/completions \
   -H "Authorization: Bearer $CHEAPAIMODEL_API_KEY" \
   -H "Content-Type: application/json" \
   -d '{
-    "model": "gpt-4o-mini",
+    "model": "glm-5.3-flash",
     "temperature": 0.7,
     "messages": [
       {"role": "system", "content": "You are a helpful assistant."},
@@ -35,7 +35,7 @@ curl https://api.cheapaimodel.com/v1/chat/completions \
 {
   "id": "chatcmpl-123",
   "object": "chat.completion",
-  "model": "gpt-4o-mini",
+  "model": "glm-5.3-flash",
   "choices": [
     {
       "index": 0,

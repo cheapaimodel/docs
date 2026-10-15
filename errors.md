@@ -10,7 +10,7 @@ Errors use standard HTTP status codes and an OpenAI-style body:
 | --- | --- | --- |
 | 400 | Bad request | Check the request body and model ID |
 | 401 | Invalid or missing API key | Check the `Authorization` header |
-| 402 | Out of credit | Top up your balance |
+| 402 | Out of credit | Top up in your [wallet](https://console.cheapaimodel.ai/wallet) |
 | 404 | Model not found | Check [models.md](models.md) |
 | 429 | Too many requests | Slow down and retry with backoff |
 | 500 / 502 / 503 | Server or upstream error | Retry after a few seconds |

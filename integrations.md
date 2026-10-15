@@ -4,7 +4,7 @@ Any tool that lets you set a custom **OpenAI base URL** works with CheapAIModel.
 
 Use these values:
 
-- **Base URL:** `https://api.cheapaimodel.com/v1`
+- **Base URL:** `https://api.cheapaimodel.ai/v1`
 - **API key:** your CheapAIModel key
 - **Model:** any ID from [models.md](models.md)
 
@@ -14,8 +14,8 @@ Use these values:
 from langchain_openai import ChatOpenAI
 
 llm = ChatOpenAI(
-    model="gpt-4o-mini",
-    base_url="https://api.cheapaimodel.com/v1",
+    model="glm-5.3-flash",
+    base_url="https://api.cheapaimodel.ai/v1",
     api_key="your-key",
 )
 ```
@@ -27,12 +27,12 @@ import { createOpenAI } from "@ai-sdk/openai";
 import { generateText } from "ai";
 
 const cheapaimodel = createOpenAI({
-  baseURL: "https://api.cheapaimodel.com/v1",
+  baseURL: "https://api.cheapaimodel.ai/v1",
   apiKey: process.env.CHEAPAIMODEL_API_KEY,
 });
 
 const { text } = await generateText({
-  model: cheapaimodel("gpt-4o-mini"),
+  model: cheapaimodel("glm-5.3-flash"),
   prompt: "Hello!",
 });
 ```
