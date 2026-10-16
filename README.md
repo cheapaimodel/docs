@@ -1,5 +1,7 @@
 # CheapAIModel Documentation
 
+English | [简体中文](zh-CN/quickstart.md)
+
 Everything you need to call AI models through the CheapAIModel API.
 
 1. [Quickstart](quickstart.md)
@@ -9,6 +11,7 @@ Everything you need to call AI models through the CheapAIModel API.
 5. [Models](models.md)
 6. [Using with other tools](integrations.md)
 7. [Errors & rate limits](errors.md)
+8. [Migrate from OpenRouter](migrate-from-openrouter.md)
 
 **Base URL:** `https://api.cheapaimodel.ai/v1`
 

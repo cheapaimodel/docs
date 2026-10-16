@@ -16,7 +16,7 @@ curl https://api.cheapaimodel.ai/v1/models \
 
 Every model is 5% below the official list price. You pay per token: no subscription, top up from $5.
 
-Prices may change; the [model catalog](https://cheapaimodel.ai/models) always has the current list.
+Prices may change; the [model catalog](https://cheapaimodel.ai/models?utm_source=github&utm_medium=docs) always has the current list.
 
 ## Choosing a model
 

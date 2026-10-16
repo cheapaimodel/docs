@@ -2,7 +2,7 @@
 
 ## 1. Get an API key
 
-Sign up at [cheapaimodel.ai](https://cheapaimodel.ai) and create a key on the [API keys page](https://console.cheapaimodel.ai/keys).
+Sign up at [cheapaimodel.ai](https://cheapaimodel.ai?utm_source=github&utm_medium=docs) and create a key on the [API keys page](https://console.cheapaimodel.ai/keys?utm_source=github&utm_medium=docs).
 
 ```bash
 export CHEAPAIMODEL_API_KEY="your-key"
@@ -41,3 +41,4 @@ console.log(res.choices[0].message.content);
 - Stream responses → [streaming.md](streaming.md)
 - Pick a model → [models.md](models.md)
 - More examples → [cheapaimodel/examples](https://github.com/cheapaimodel/examples)
+- Coming from OpenRouter? → [migrate-from-openrouter.md](migrate-from-openrouter.md)
